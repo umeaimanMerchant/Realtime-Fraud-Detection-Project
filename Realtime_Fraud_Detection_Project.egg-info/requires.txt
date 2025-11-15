@@ -1,0 +1,12 @@
+setuptools
+numpy
+pandas
+scikit-learn
+xgboost
+lightgbm
+pyarrow
+joblib
+pydantic
+python-dotenv
+fastapi
+uvicorn

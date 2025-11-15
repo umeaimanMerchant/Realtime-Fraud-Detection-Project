@@ -1,0 +1,48 @@
+setuptools
+
+# --- Core Python ---
+numpy
+pandas
+scikit-learn
+xgboost
+lightgbm
+
+# --- Feature engineering & utilities ---
+pyarrow
+joblib
+pydantic
+python-dotenv
+
+# # --- Kafka ---
+# confluent-kafka
+
+# # --- Spark (for streaming inference) ---
+# pyspark==3.5.0
+
+# # --- MLflow (tracking & model registry) ---
+# mlflow
+# boto3               # S3 / MinIO support for artifacts
+# cloudpickle         # model serialization
+
+# # --- Postgres ---
+# psycopg2-binary
+
+# # --- Airflow (training pipelines) ---
+# apache-airflow==2.10.1
+# apache-airflow-providers-postgres
+# apache-airflow-providers-apache-spark
+# apache-airflow-providers-apache-kafka
+
+# --- API layer (optional) ---
+fastapi
+uvicorn
+
+# # --- Monitoring (optional but recommended) ---
+# prometheus-client
+
+# # --- Testing ---
+# pytest
+
+# # --- Logging ---
+# loguru
+-e .
